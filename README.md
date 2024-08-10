@@ -24,33 +24,33 @@ Install dependencies:
       pacman -S mingw-w64-x86_64-gtk3
 
 4. **Compile the project**
-5. 
+   
       gcc -o password_checker password_checker.c $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)
 
 
 ## Features
 
-   -Real-time password strength evaluation
-   
-   -Suggestions to improve password strength
-   
-   -Toggle password visibility
+      -Real-time password strength evaluation
+      
+      -Suggestions to improve password strength
+      
+      -Toggle password visibility
    
 ## Contributing
 
-   Contributions are welcome! Please follow these steps to contribute:
-
-   Fork the repository.
+      Contributions are welcome! Please follow these steps to contribute:
    
-   Create a new branch (git checkout -b feature-branch).
-   
-   Make your changes.
-   
-   Commit your changes (git commit -m 'Add some feature').
-   
-   Push to the branch (git push origin feature-branch).
-   
-   Open a Pull Request.
+      Fork the repository.
+      
+      Create a new branch (git checkout -b feature-branch).
+      
+      Make your changes.
+      
+      Commit your changes (git commit -m 'Add some feature').
+      
+      Push to the branch (git push origin feature-branch).
+      
+      Open a Pull Request.
 
 ## License
 
