@@ -6,7 +6,7 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/password-checker.git
+   git clone https://github.com/x33MH/Password-Strength-Checker.git
    cd password-checker
 Install dependencies:
 
