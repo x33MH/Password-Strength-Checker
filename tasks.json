@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-c",
+                "gcc -o ${fileDirname}/${fileBasenameNoExtension}.exe ${file} $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build task for GTK application"
+        }
+    ]
+}

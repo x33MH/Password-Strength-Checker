@@ -1,0 +1,28 @@
+window {
+    background: url("background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#container {
+    background-color: rgba(255, 192, 203, 0.8); /* Pink background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+entry, button, label, checkbutton {
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background for readability */
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+grid {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Opaque background for better readability */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
