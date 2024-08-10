@@ -22,8 +22,11 @@ Install dependencies:
 
 
 ## Features
+
    -Real-time password strength evaluation
+   
    -Suggestions to improve password strength
+   
    -Toggle password visibility
    
 ## Contributing
