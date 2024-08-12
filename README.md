@@ -3,11 +3,19 @@
 This project is a Password Strength Checker built using GTK in C. It evaluates the strength of passwords and offers suggestions to improve them.
 
 ## Table of Contents
-  1. [Installation and Set up](#installation-and-setup)
-  2. [Features](#features)
+  1. [Features](#features)
+  2. [Installation and Set up](#installation-and-setup)
   3. [Contributing](#contributing)
   4. [License](#license)
   5. [Acknowledgements](#acknowledgements)
+
+## Features
+   
+   - Real-time password strength evaluation
+         
+   - Suggestions to improve password strength
+         
+   - Toggle password visibility
 
 ## Installation and Setup
 
@@ -100,14 +108,6 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
          gcc -o your_program.exe your_source_file.c $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)
    
          ./<your_program.exe>   
-
-## Features
-   
-   - Real-time password strength evaluation
-         
-   - Suggestions to improve password strength
-         
-   - Toggle password visibility
    
 ## Contributing
 
