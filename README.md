@@ -97,28 +97,16 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
    
 
 ## Features
-
+   
       -Real-time password strength evaluation
-      
+         
       -Suggestions to improve password strength
-      
+         
       -Toggle password visibility
    
 ## Contributing
 
-   Contributions are welcome! Please follow these steps to contribute:
-   
-   Fork the repository.
-      
-   Create a new branch (git checkout -b feature-branch).
-      
-   Make your changes.
-      
-   Commit your changes (git commit -m 'Add some feature').
-      
-   Push to the branch (git push origin feature-branch).
-      
-   Open a Pull Request.
+
 
 ## License
 
