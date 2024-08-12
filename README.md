@@ -2,44 +2,46 @@
 
 This project is a Password Strength Checker built using GTK in C. It evaluates the strength of passwords and offers suggestions to improve them.
 
-## Installation
+## Installation and Set up
 
-1. **Clone the repository:**
+1. ### **Clone the repository:**
+
+   Clone code and change directory 
    
    ```bash
       git clone https://github.com/x33MH/Password-Strength-Checker.git
+   
       cd password-checker
 
-2. **Install dependencies:**
+3. ### **Install dependencies:**
    
-      Here’s how you can install GTK on Windows:
+   Here’s how you can install GTK on Windows:
    
-   Step 1: Install MSYS2
+   _Step 1: Install MSYS2_
    
-      MSYS2 is a software distribution and building platform for Windows that provides a Unix-like environment and package management system.
+   - MSYS2 is a software distribution and building platform for Windows that provides a Unix-like environment and package management system.
    
    Download MSYS2:
    
-      Visit the MSYS2 website and download the installer.
-      
-      Run the installer and follow the prompts to install MSYS2. Choose a directory where MSYS2 will be installed (e.g., C:\msys64).
+   - Visit the MSYS2 website and download the installer.
+   
+   - Run the installer and follow the prompts to install MSYS2. Choose a directory where MSYS2 will be installed (e.g., C:\msys64).
       
    Update the Package Database:
    
-      After installation, open the MSYS2 terminal (MSYS2 UCRT64 is recommended).
-      
-      Update the package database and core system packages by running the following commands:
+   - After installation, open the MSYS2 terminal (MSYS2 UCRT64 is recommended).
+   
+   Update the package database and core system packages by running the following commands:
    
          pacman -Syu
             
    Close the terminal after the update is complete.
    
-      Open MSYS2 UCRT64 Terminal:
+      - Open MSYS2 UCRT64 Terminal:
       
-      Reopen the MSYS2 UCRT64 terminal. This version of the terminal supports better compatibility with Windows.
+      - Reopen the MSYS2 UCRT64 terminal. This version of the terminal supports better compatibility with Windows.
    
-   Step 2: Install GTK and Development Tools
-
+   _**Step 2: Install GTK and Development Tools**_
    Install GTK:
    
       In the MSYS2 UCRT64 terminal, install GTK and its dependencies using the following command
@@ -56,45 +58,40 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
          
       If the installation is successful, this command will output the version of GTK installed.
    
-   Step 3: Configure Environment Variables (Optional)
+   _**Step 3: Configure Environment Variables (Optional)**_
    
       If you need to run the GTK-based application directly from the Windows command prompt (outside of MSYS2), you may need to add MSYS2's binary paths to your Windows environment variables.
       
       Add MSYS2 Paths to Environment Variables:
       
-      Open the System Properties and navigate to Advanced > Environment Variables.
+      - Open the System Properties and navigate to Advanced > Environment Variables.
       
-      Under System variables, find the Path variable, and click Edit.
+      - Under System variables, find the Path variable, and click Edit.
       
-      Add the following paths (replace C:\msys64 with your actual MSYS2 installation path):
+      - Add the following paths (replace C:\msys64 with your actual MSYS2 installation path):
 
-   text
+   Example
    
-      C:\msys64\ucrt64\bin
+         C:\msys64\ucrt64\bin
+         
+         C:\msys64\usr\bin
       
-      C:\msys64\usr\bin
-      
-   Click OK to save the changes.
+      - Click OK to save the changes.
    
-      Test in Command Prompt:
+      - Test in Command Prompt:
       
-      Open a new Command Prompt and type:
+      - Open a new Command Prompt and type:
    
          gcc --version
+   
       If installed correctly, the command will return the GCC version, confirming that MSYS2 and GTK are accessible globally.
       
-      Step 4: Compile and Run GTK Programs
+      _**Step 4: Compile and Run GTK Programs**_
       
       You can now compile and run GTK applications using the MSYS2 UCRT64 terminal with the command:
 
-
          gcc -o your_program.exe your_source_file.c $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)
-         ./your_program.exe
-
-4. **Compile the project**
-   
-         gcc -o password_checker password_checker.c $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)
-   
+         ./your_program.exe   
 
 ## Features
    
@@ -105,8 +102,6 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
       -Toggle password visibility
    
 ## Contributing
-
-
 
 ## License
 
