@@ -98,7 +98,8 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
       You can now compile and run GTK applications using the MSYS2 UCRT64 terminal with the command:
 
          gcc -o your_program.exe your_source_file.c $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)
-         ./your_program.exe   
+   
+         ./<your_program.exe>   
 
 ## Features
    
