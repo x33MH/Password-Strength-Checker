@@ -2,7 +2,14 @@
 
 This project is a Password Strength Checker built using GTK in C. It evaluates the strength of passwords and offers suggestions to improve them.
 
-## Installation and Set up
+## Table of Contents
+  1. [Installation and Set up](#installation-and-setup)
+  2. [Features](#features)
+  3. [Contributing](#contributing)
+  4. [License](#license)
+  5. [Acknowledgements](#acknowledgements)
+
+## Installation and Setup
 
 1. ### **Clone the repository:**
 
@@ -95,16 +102,42 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
 
 ## Features
    
-      -Real-time password strength evaluation
+   - Real-time password strength evaluation
          
-      -Suggestions to improve password strength
+   - Suggestions to improve password strength
          
-      -Toggle password visibility
+   - Toggle password visibility
    
 ## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+  1. Fork the Project
+  2. Create your Feature Branch
+  ```
+    git checkout -b feature-branch
+  ```
+  3. Commit your Changes
+  ```
+    git commit -m 'Add some feature
+  ```
+  4. Push to the Branch
+  ```
+    git push origin feature-branch
+  ```
+  5. Open a Pull Request
 
 ## License
 
    This project is licensed under the MIT License - see the LICENSE file for details.
 
-   
+## Acknowledgements
+  - **Contributors** <br>
+  => Project Manager:  <br>
+  => Contributor :  <br>
+  => Contributor :  <br>
+  => Contributor :  <br>
+  => Contributor :  <br>
+
+  - **C/C++ Programming Language** <br>
+    This project utilizes C/C++ for its core functionality. Special thanks to the C and C++ communities for their robust programming languages and support.   
