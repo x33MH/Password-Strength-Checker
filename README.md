@@ -21,11 +21,14 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
 
 1. ### **Clone the repository:**
 
-   Clone code and change directory 
+  Clone code  
    
-   ```bash
+     ```bash
       git clone https://github.com/x33MH/Password-Strength-Checker.git
+     
    
+  Open it directory    
+  
       cd password-checker
 
 3. ### **Install dependencies:**
@@ -105,7 +108,11 @@ This project is a Password Strength Checker built using GTK in C. It evaluates t
       
       You can now compile and run GTK applications using the MSYS2 UCRT64 terminal with the command:
 
+      Compile the code 
+
          gcc -o your_program.exe your_source_file.c $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs gtk+-3.0)
+
+      Run the code
    
          ./<your_program.exe>   
    
@@ -134,11 +141,11 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Acknowledgements
   - **Contributors** <br>
-  => Project Manager:  <br>
-  => Contributor :  <br>
-  => Contributor :  <br>
-  => Contributor :  <br>
-  => Contributor :  <br>
+  => Project Manager: Menghong Noem, Email: 6023030001@camtech.edu.kh  <br>
+  => Contributor : Kheang Monyrachana, Email: mk6024010035@camtech.edu.kh <br>
+  => Contributor : Te Lyhai, Email: lt6024010011@camtech.edu.kh <br>
+  => Contributor : Dath Theaning, Email: td6024010031@camtech.edu.kh <br>
+  => Contributor : Saryrath Munyneath, Email: 6023020002@camtech.edu.kh <br>
 
   - **C/C++ Programming Language** <br>
     This project utilizes C/C++ for its core functionality. Special thanks to the C and C++ communities for their robust programming languages and support.   
