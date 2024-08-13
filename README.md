@@ -148,4 +148,7 @@ Contributions are welcome! Please follow these steps to contribute:
   => Contributor : Saryrath Munyneath, Email: 6023020002@camtech.edu.kh <br>
 
   - **C/C++ Programming Language** <br>
-    This project utilizes C/C++ for its core functionality. Special thanks to the C and C++ communities for their robust programming languages and support.   
+    This project utilizes C/C++ for its core functionality. Special thanks to the C and C++ communities for their robust programming languages and support.
+
+  - **CSS style sheet language** <br>
+    This project utilizes CSS for the UI interface to make look aesthetics and beautiful.
